@@ -2,11 +2,15 @@
 
 ## Introduction
 A javascript js & css loader & show markdown library for browsers (IE9+).
+* 자바스크립트 & CSS 동적 로딩을 지원합니다.
 - js-loader
 - css-loader
 - markdown-loader
 
 ## Demo
+- 테스트를 위해showdownjs와 markedjs 라이브러리를 이용하여 마크다운문법을 표시하는 샘플을 만들어 보았습니다.
+- 뭐 혹시라도 궁금한점은 softm@nate.com으로 메일 주시면 답변드리겠습니다.
+
 1. [loader](https://rawgit.com/softm/loader/master/loader.html)
 
 2. [markdown highlight - showdonwjs](https://rawgit.com/softm/loader/master/markdown_highlight.html)
