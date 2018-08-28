@@ -20,10 +20,10 @@ A javascript js & css loader & show markdown library for browsers (IE9+).
 Usage
 -----
 ```html
-<!--
 <script type="text/javascript" src="https://rawgit.com/softm/loader/master/loader.js"></script>
--->
+<!--
 <script type="text/javascript" src="//loader.js"></script>
+-->
 <script type="text/javascript">
 window.onload = function () {
     loader.js(
@@ -53,6 +53,7 @@ window.onload = function () {
 ## Documentation
 1. example-1 ( load single )
 ```html
+<script type="text/javascript" src="https://rawgit.com/softm/loader/master/loader.js"></script>
 <script type="text/javascript">
     loader.js(
       "https://rawgit.com/softm/loader/master/foo.js",
@@ -65,6 +66,7 @@ window.onload = function () {
 
 2. example-2 ( load parallel synchronously )
 ```html
+<script type="text/javascript" src="https://rawgit.com/softm/loader/master/loader.js"></script>
 <script type="text/javascript">
 window.onload = function () {
     loader.js(
@@ -93,6 +95,7 @@ window.onload = function () {
 
 3. example-3 ( load parallel asynchronously )
 ```html
+<script type="text/javascript" src="https://rawgit.com/softm/loader/master/loader.js"></script>
 <script type="text/javascript">
 window.onload = function () {
     loader.js(
@@ -122,6 +125,7 @@ window.onload = function () {
    - showdownjs : http://demo.showdownjs.com/, https://github.com/showdownjs/showdown
 
 ```html
+<script type="text/javascript" src="https://rawgit.com/softm/loader/master/loader.js"></script>
 <script type="text/javascript">
 window.onload = function () {
     loader.js(
@@ -161,6 +165,7 @@ window.onload = function () {
     );
 }
 </script>
+
   <pre id="contents">
   ##Javascript
   ```javascript
@@ -172,6 +177,7 @@ window.onload = function () {
    - markedjs : https://marked.js.org
 
 ```html
+<script type="text/javascript" src="https://rawgit.com/softm/loader/master/loader.js"></script>
 <script type="text/javascript">
 window.onload = function () {
     loader.js(
