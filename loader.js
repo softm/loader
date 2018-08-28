@@ -78,7 +78,7 @@ var loader = function() {
                         if (loadCallback instanceof Array) {
                             loadCallback[loadSyncSrcIndex](o);
                             if ( loadSrc.length !== loadSyncSrcIndex+1 ) {
-                                load({
+                                js({
                                     "src": loadSrc[++loadSyncSrcIndex]
                                 });
                             }
@@ -87,7 +87,7 @@ var loader = function() {
                                 loadCallback(o);
                             } else {
                                 if ( loadSrc.length !== loadSyncSrcIndex+1 ) {
-                                    load({
+                                    js({
                                         "src": loadSrc[++loadSyncSrcIndex]
                                     });
                                 }
