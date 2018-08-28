@@ -1,4 +1,4 @@
-# loader
+# JAVASCRIPT(js) & CSS loader 
 
 ## Introduction
 A javascript js & css loader & show markdown library for browsers (IE9+).
